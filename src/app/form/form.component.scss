@@ -1,0 +1,80 @@
+body {
+   
+    background-position-x: -100px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+/*---------- Navbar ----------*/
+.logo {
+    font-size: 25px;
+    margin-top: 1.5%;   
+}
+
+.navigation {
+    background-color: rgba(0, 0, 0, 0.3);
+    height: 8%;
+}
+
+.menue {
+    font-size: 18px;
+    margin-top: 0.6%;
+}
+
+.tgl {
+    margin-top: 3%;
+}
+
+/*---------- Signup ----------*/
+.home {
+    margin-top: 10%;
+}
+
+.account {
+    margin-top: 1%;
+}
+
+.frm {
+    color: white;
+}
+
+.signup {
+    background-color: rgba(0,0,0,0.28);
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.signup h1 {
+    color: rgb(157, 157, 157);
+}
+
+.submit {
+    color: black;
+    margin-top: 2%;
+}
+
+.submit:hover {
+    color: white;
+    background: black;
+}
+/*---------- Media Queries ----------*/
+@media only screen and (max-width: 600px){
+    .logo{
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width: 600px) {
+    .tgl {
+        margin-top: 2%;
+    }
+}
+
+@media only screen and (max-width: 650px) {
+    .home {
+        margin-top: 25%;
+    }
+}
