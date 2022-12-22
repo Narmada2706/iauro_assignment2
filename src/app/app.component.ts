@@ -6,5 +6,10 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'narmada_first_app';
+  title = 'second_task';
+  pageNo: any;
+  buttonclicked(index: any){
+    console.log("index");
+    this.pageNo = index;
+  }
 }

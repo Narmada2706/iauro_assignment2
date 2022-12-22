@@ -1,3 +1,4 @@
-
-
-  <app-form></app-form>
+<h1>Angular Session</h1>
+<button (click)="buttonclicked(1)">Page 1</button> | <button (click)="buttonclicked(2)"> Page 2</button>
+<app-student-list *ngIf="pageNo==1"></app-student-list>
+<app-student-details *ngIf="pageNo==2"></app-student-details>
